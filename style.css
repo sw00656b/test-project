@@ -1,9 +1,11 @@
 body {
   background: #f9e933;
+  font-size: 100%;
 }
 
 header, main, footer {
   min-width: 855px;
+  font-family: 'Droid Sans', sans-serif;
 }
 
 header .container, main .container, footer .container {
@@ -19,7 +21,8 @@ header {
 header h1 {
   float: left;
   width: 570px;
-
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 3em;
 }
 
 header nav {
@@ -29,6 +32,26 @@ header nav {
 
 main {
   background: white;
+}
+
+main h1 {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2em;
+}
+
+main h2 {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2em;
+}
+
+main h3 {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 1.2em;
+}
+
+main h4 {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2em;
 }
 
 main .content {
