@@ -24,6 +24,7 @@ header h1 {
   font-family: 'Ubuntu', sans-serif;
   font-size: 3em;
   font-style: Italic;
+  color: #cdcdcd;
   margin-top: 1em;
   margin-bottom: 1em;
 }
@@ -38,13 +39,14 @@ header nav {
 main {
   background: white;
   border-top-style: solid;
-  border-top-color: #d3d3d3;
+  border-top-color: #cdcdcd;
   border-top-width: 1px;
 }
 
 main h1 {
   font-family: 'Ubuntu', sans-serif;
-  font-size: 2em;
+  font-size: 2em
+  font-color: #cdcdcd;
   margin-top: 1em;
 }
 
@@ -81,7 +83,7 @@ footer .contact {
 }
 
 footer .company-name {
-  font-color: #d3d3d3;
+  color: #cdcdcd;
   font-style: italic;
 }
 
@@ -95,3 +97,15 @@ footer .sitemap {
   float: right;
   width: 270px;
 }
+
+footer .sitemap-left {
+  float: left;
+  width: 50%;
+}
+
+footer .sitemap-right {
+  float: right;
+  width: 50%;
+}
+
+
